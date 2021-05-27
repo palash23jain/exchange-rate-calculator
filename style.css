@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(231, 230, 230);
+}
+h1{
+    color: teal;
+}
+
+img{
+    width: 150px;
+}
+
+.container{
+    width: 350px;
+}
+
+.container .currency{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.container .swap-currency{
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+#swap-button{
+    background-color: rgb(135, 187, 187);
+    color: whitesmoke;
+}
+#rate{
+    color: teal;
+}
